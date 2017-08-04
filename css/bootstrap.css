@@ -10,7 +10,13 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+margin: 0;
+background: url(C:\Users\Duodecim\Dropbox\Programacion tips\Bootstrap\startbootstrap-stylish-portfolio-gh-pages\img\bm.jpg)100% 100%!important;
+background-attachment:fixed!important;
+background-repeat: no-repeat!important;
+background-position: top left!important;
+}
+    
 }
 article,
 aside,

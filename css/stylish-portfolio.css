@@ -10,6 +10,8 @@ html,
 body {
     width: 100%;
     height: 100%;
+    
+    
 }
 
 body {
@@ -165,13 +167,18 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    background:url("../img/bm.jpg");
+       background-size: cover;       /* For flexibility */
+    
 }
+    
 
 /* Services */
 
 .services {
     padding: 50px 0;
+    background:url("../img/bm.jpg");
+       background-size: cover;   
 }
 
 .service-item {
@@ -180,22 +187,42 @@ hr.small {
 
 /* Callout */
 
+
+
 .callout {
     display: table;
+    background: url(../img/bm.jpg) no-repeat center center scroll;
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;   
 }
+
+.callimg {  texto dentro de la imagen
+   position: relative; 
+   width: 68%;
+   height: 400px;    /* for IE 6 */
+}
+
+/* h1 { 
+   position: absolute; 
+   top: 100px; 
+   left: 0; 
+   width: 100%;
+   color:brown;
+}
+
+
 
 /* Portfolio */
 
 .portfolio {
     padding: 50px 0;
+    background:url("../img/bm.jpg");
+       background-size: cover;   
 }
 
 .portfolio-item {
@@ -247,4 +274,8 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+.carousel {
+     background:url("../img/bm.jpg");
+       background-size: cover; 
 }
